@@ -7,5 +7,6 @@ h1.title {
 }
 div.new {
   /*align right*/
-  text-align: right;
+  text-align: left;
+  margin: 30px;
 }

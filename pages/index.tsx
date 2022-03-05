@@ -8,7 +8,12 @@ const Home: NextPage = () => {
   return (
     <>
       <NavBar />
-      <p>Hello World</p>
+      <h1 className={`${styles.title}`}>
+        YourBetterAssistant Development Blog!
+      </h1>
+      <div className={styles.new}>
+        <p>Newest Blogs:</p>
+      </div>
     </>
   );
 };
